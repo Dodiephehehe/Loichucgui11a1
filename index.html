@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <style>
         :root {
-            --env-color: #f3e5ab; /* Màu kem phong bì */
+            --env-color: #f3e5ab; 
             --env-dark: #e5d38f;
             --paper-color: #ffffff;
         }
@@ -39,9 +39,9 @@
 
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
-        /* MÀN 1: NHẬP TÊN - ĐẨY LÊN CAO */
+        /*nhapten*/
         #screen1 {
-            top: 40px; /* Khoảng cách sát đỉnh */
+            top: 40px; 
             text-align: center;
         }
 
@@ -55,7 +55,7 @@
         input { padding: 12px; font-size: 18px; border: 2px solid #ddd; border-radius: 8px; width: 250px; display: block; margin: 20px auto; text-align: center; }
         button { padding: 12px 35px; font-size: 18px; background: #e74c3c; color: white; border: none; border-radius: 8px; cursor: pointer; }
 
-        /* MÀN 2: PHONG BÌ - GIỮ NGUYÊN GIỮA MÀN HÌNH */
+        /*phongbi*/
         #screen2 {
             top: 0;
             height: 100vh;
@@ -104,9 +104,9 @@
         .envelope-wrapper.open .paper { transform: translateY(-100px); }
         .instruction { color: white; margin-top: 50px; font-size: 20px; font-weight: bold; }
 
-        /* MÀN 3: LỜI CHÚC - ĐẨY LÊN CAO */
+        /*loichuc*/
         #screen3 {
-            top: 30px; /* Khoảng cách sát đỉnh */
+            top: 30px; 
             text-align: center;
         }
 
@@ -124,7 +124,7 @@
     <div class="container">
         <div id="screen1" class="screen active">
             <div class="input-box">
-                <h2>Nhập cả họ và tên để nhận lời chúc nhe</h2>
+                <h2>Nhập cả họ và tên để nhận lời chúc nhe (Viết hoa các chữ cái đầu)</h2>
                 <input type="text" id="nameInput" placeholder="Họ và tên...">
                 <button onclick="checkName()">Xác nhận</button>
             </div>
@@ -198,3 +198,4 @@
 </body>
 
 </html>
+
