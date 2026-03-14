@@ -151,10 +151,57 @@
 
     <script>
         const studentData = {
-            "Nguyễn Văn An": "Chúc em luôn nỗ lực và gặt hái được nhiều thành công trong môn Tin học!",
-            "Lê Thị B": "Hy vọng em sẽ có những kỷ niệm thật đẹp tại HNUE nhé.",
-            "Lê Yến Nhi": "Chúc con vợ mai thi anh được 8+ và lý thì cứ gọi là ez nhé :v",
-            "Lê Gia An": "ÔN LÀN"
+            "Vũ Trần Khánh An": "Chúc Khánh An mãi lạc quan, yêu đời. Cô tin rằng mỗi người đều có những khả năng riêng của mình. Có thể em chưa nhìn thấy hết, nhưng từng bước cố gắng mỗi ngày sẽ giúp em nhận ra mình giỏi hơn mình nghĩ nhiều. Đừng ngại thử sức, chúc em sẽ trở thành một bác sĩ trong tương lai.",
+            "Đào Quang Duy Anh": "Sở thích nghịch hệ thống máy tính là hơi bị chất đấy =)) Chúc Duy Anh trong tương lai sẽ được mặc long bào, đỗ vào ngành vua của mọi ngành và sớm sửa được ngọng \"n,l\" (cô cũng bị ngọng, hội những người bị bully vì ngọng n,l)",
+            "Đào Thị Phương Anh": "Chúc Phương Anh sớm đạt được 10 toán, lý, hóa (xuất phát sớm từ bây giờ thì thủ khoa khối A là ez luôn). Cô cũng muốn được làm chủ nhiệm của lớp mình lắm hehe :3 (Lớp mình toàn lgbt thật à?)",
+            "Nguyễn Quang Hoàng Anh": "Thông minh nhưng dốt là do lười học đấy, Hoàng Anh chăm học thì kiểu gì cũng 10 toán. Chúc em đỗ trường đại học mơ ước (Thành tài thì cô thuê thiết kế nhà cho cô( PHẢI free), gà thì thôi)",
+            "Nguyễn Văn Bảo": "Nghe ba tính từ về bản thân mà thấy Bảo cute vc, những người tốt bụng xứng đáng được trân trọng nhất thế gian. Chúc Bảo sớm khám phá ra được ước mơ của mình. Đang kì 2 rồi, cố gắng học để được 8 phẩy Anh và Toán, tìm một bạn tốt bụng khác để kèm lý là hết mất gốc Lý. Perfect luôn",
+            "Nguyễn Cẩm Bình": "Ấn tượng của cô về Bình là nhìn Bình toát ra cái vibe rất ngoan, hơi trầm tính nhưng nói chuyện cùng thì thấy em rất dễ gần, cutee. Chúc em sẽ được 10 điểm các môn (Ngồi học ngay luôn điii!) và có tình yêu tuổi học trò nồng cháy nháa (Nhưng học vẫn là quan trọng nhất)",
+            "Lê Phương Chi": "Học chậm mà chắc Chi ạ, hoặc có thể không phải do em học chậm mà do em chưa tìm được hứng thú thôi vì trước kia cô cũng thế. Chúc Chi đạt được 9, 10 Toán, Lý và đạt được ước mơ của mình",
+            "Hà Minh Chiến": "Ấn tượng ban đầu cô thấy Chiến nói nhiều vch mà không hiểu sao mấy tuần sau lại thấy trầm hơn hẳn :(. Đá bóng thì cô không biết khuyên gì nhưng về việc học thì có lẽ em chỉ cần cố gắng và chăm chỉ đấy. Ai cũng vậy thôi, muốn đạt thành tích tốt thì cần phải cố gắng rất nhiều, đặc biệt là các ngành học mà em đang hướng đến càng phải cố gắng càng sớm càng tốt nha",
+            "Nguyễn Phương Chinh": "Ấn tượng của cô về Trinh là nhìn trắng trắng nhỏ nhỏ, dth. Cô thấy em tự tin rất nhiều thứ có cả học giỏi nhưng chưa tự tin lại là chưa thực sự giỏi, theo cô hiểu chắc là em vẫn chưa hài lòng về bản thân. Hãy nhớ ghi nhận những gì mình đã làm được, vừa tiếp tục cố gắng vừa tin hơn vào khả năng của mình nhé",
+            "Nguyễn Tiến Dũng": "Có thể em vẫn còn hơi lười và chưa thật sự nghiêm túc với việc học, nhưng cô tin khi em quyết tâm hơn và dành thời gian suy nghĩ về tương lai của mình, em sẽ tìm được hướng đi phù hợp. Chúc em luôn hạnh phúc với những lựa chọn của mình",
+            "Nguyễn Bảo Duy": "Em không tiết lộ nhiều nên cô cũng không biết rõ nhưng mà chỉ biết là em quý bạn Hải =)) Thôi thì chúc cho em và Hải mãi là anh em để trêu Hải dài dài.",
+            "Nguyễn Đạt Minh Duy": "Ấn tượng của cô về Duy là hơi kiểu hiền hiền hay cười (hoi thao mai =)) thôi chắc là kiểu soft boy nó vậy). Không biết Duy có quý cô không chứ cô quý Duy lắm tại nhiều lúc không biết nói gì có Duy nên tương tác cũng đỡ chán. Chúc Duy đỗ vào trường mong muốn. Học luật thì phản biện phải thấm, nhìn phải dữ vào để không khóc khi cãi nhau nha",
+            "Đặng Thị Thùy Dương": "Ấn tượng của cô lần đầu nhìn em là kiểu xinh gái hơi mọt sách hehe.Chúc Dương sẽ luôn tự tin, môn nào cũng được 10 điểm như ý và đạt học sinh xuất sắc nhá (mở sách vở ra học ngay đi) và sớm được gặp idol ngoài đời nha",
+            "Nguyễn Quang Đăng": "Nếu Đăng còn tự ti vì thời gian học 60' thì chơi 55' và học 5' thì tăng thời gian học lên thành 36 tiếng để học được 180' nhé. Chúc Đăng sớm thành chủ tịch SVM, Gay TV nhé.",
+            "Đinh Minh Đức": "Chúc Đức đỗ được trường như ý nhe, muốn vào được trường đấy thì học ngay từ bây giờ đii nhé, cày anime 8 tiếng thì sớm muộn gì cũng thành thủ khoa khối A thôi. (Trả lời tí câu hỏi phụ của Đức thì cô k4, quê 18, có chơi liên quân (tinh anh ráck). Cô không dạy được môn khác đâu vì chuyên ngành gì thì dạy môn đó thôi, nhiều lúc cô cũng muốn nói chuyện với các em lắm nhưng mà cứ nhìn các em là bị cứng họng ;( )",
+            "Nguyễn Đình Đức": "Chúc em giữ vững quyết tâm để chinh phục nguyện vọng của mình. Không biết FLEX của em là hiểu theo nghĩa nào nhưng mà chắc là khen cô, chúc em cũng FLEX như cô",
+            "Phùng Văn Việt Hải": "Ấn tượng của cô về em là con vợ này ngông vc, được cái điểm cộng là khen cô xinh gái (quý Hải vc) điểm trừ là flirt cả giáo viên thực tập (điều này cô không vui). Mong Hải nghiêm túc học tập hơn và hãy suy nghĩ kĩ những điều mình đã làm và đang làm, em rất tự tin và điều này có thể giúp em đạt được rất nhiều thứ. Đừng để những thói xấu làm hại tương lai của bản thân và tập có trách nhiệm với các hành động của mình Hải nhé.",
+            "Đỗ Hữu Hiệp": "Chúc em giữ vững quyết tâm và từng bước chinh phục mục tiêu của mình. Cô không thấy tờ phiếu khảo sát của em đâu, có thể do cô làm mất hoặc do em không nộp (bùn :( )",
+            "Đào Phương Hoa": "Ấn tượng của cô về Hoa là xinh gái nhưng lại trầm tính, có lẽ do em còn ngại nói chuyện với các bạn. Cô mong rằng em sẽ dần tự tin hơn thoải mái nói chuyện cùng các bạn, bước ra khỏi vùng an toàn và thể hiện bản thân mình nhiều hơn nhé.",
+            "Nguyễn Quang Huy": "Ấn tượng của cô và các bạn nữ về em là một bạn rất ngoan và hơi trầm hehe. Cô thì quý nhất mấy bạn ngoan nên cũng quý Huy lắm. Cô chúc Huy sẽ đỗ vào ngôi trường mà em mơ ước nhé. Thời gian cô thực tập không nhiều nên có lẽ chưa thể giúp em bứt phá ra khỏi vòng an toàn của mình, nhưng cô tin rằng em hoàn toàn có thể tự làm được điều đó. Còn khó khăn là còn thăng tiến, cố lên!",
+            "Trịnh Gia Huy": "Mong rằng em sẽ ngày càng tự tin và mạnh mẽ hơn trên con đường phía trước. (Sở thích của Huy nói tóm gọn lại là thích các bạn nam à?)",
+            "Vũ Thu Huyền": "Ấn tượng của cô về Huyền ban đầu là mắt to nhìn cute và quả mái ngố nhìn hay hay và trầm, về sau lúc tiếp xúc nhiều hơn thì thấy Huyền cũng mát mát tẻn tẻn hihi. Cô quý Huyền lắm, chúc Huyền mãi xinh gái, học giỏi và đỗ được HNUE để học với cô nha.",
+            "Trần Phúc Khánh": "Chúc em luôn là một người tử tế, chăm chỉ và sống hết mình với những điều mình lựa chọn.",
+            "Nguyễn Đình Tuấn Linh": "Sở thích của em hơi sợ nhưng mà nghe cũng hay đấy =)) Chúc em cao hơn cả Toàn, học được 60 phút liền để vào NEU nhá",
+            "Phan Trần Gia Linh": "Có ấn tượng rất nhiều hihi, Gia Linh thì thân thiện khỏi nói. Tiếp xúc nhiều nên có gì nói cô cũng nói hết rồi =) thôi thì chúc Linh luôn tự tin, tỏa sáng, đạt aim IELTS và đỗ hết tất cả các trường đại học mà mình mơ ước",
+            "Hoàng Đức Long": "Chúc em luôn mạnh mẽ, kiên trì và không bỏ cuộc trước những mục tiêu mà mình đặt ra (cụ thể làm DJ và biết blender)",
+            "Nguyễn Thành Long": "Huhu đọc lời chúc của em cho cô thì cô thấy em là một người rất tình cảm. Chúc Long đỗ NEU và quý Nam Phong hơn (cô cũng thích nghe nhạc vc)",
+            "Dương Văn Bảo Lộc": "Rất vui vì tìm được một vài bạn thích học môn Tin trong lớp mình hehe. Chúc Lộc luôn được thầy cô khen, luôn tốt bụng chăm chỉ nhiệt tình như bây giờ và là tân sinh viên hust trong năm sau.",
+            "Nguyễn Khánh Ly": "Chúc em luôn tiến bộ từng ngày và đạt được những kết quả tốt hơn trong thời gian tới và hết sợ khi nói trước đám đông nha, nên đại học thuyết trình nhiều lắmm",
+            "Lê Đình Tiến Mạnh": "Mạnh chắc có 2 sides nên có 2 bản à Mạnh, chúc Mạnh cũng có tình yêu học trò tươi đẹp nhưng vẫn phải tập trung vào việc học nhé. Có lẽ em rất hiểu bản thân mình cần gì và nguyên nhân những thói xấu rồi, cô chúc em đủ kiên định để thay đổi bản thân nhé (cô cũng bị bệnh trì hoãn)",
+            "Trần Đình Mạnh": "Hãy mạnh dạn tin vào bản thân, chăm chỉ học tập và em sẽ đạt được điều mình mong muốn (Có làm phụ hồ thì cũng phải học để làm thợ chính nha)",
+            "Lê Hồng Minh": "Cô không thấy tờ phiếu khảo sát của em đâu, có thể do cô làm mất hoặc do em không nộp (bùn :( ). Chúc em luôn giữ được sự chăm chỉ và tinh thần học hỏi, những cố gắng hôm nay sẽ là thành công của ngày mai.",
+            "Đào Khánh Ngọc": "Hy vọng em sẽ ngày càng tự tin hơn và dám thử những điều mới để khám phá khả năng của bản thân, tập thuyết trình nhiều lên nha.",
+            "Nguyễn Khôi Nguyên": "Chữ Nguyên hơi ấy nên cô đọc không hiểu lắm, chỉ thấy là Nguyên thấy nhiều bạn trong lớp không ngoan thôi. Chúc em luôn nỗ lực học tập để đạt được nguyện vọng của mình vào được Stanford hay Hogwarts thì cô mừng cho em.",
+            "Nguyễn Trung Nguyên": "Chúc em luôn tự tin, chăm chỉ và đạt được mục tiêu mình đặt ra. Thích làm hoá chứ đừng tha hoá nhé!",
+            "Nguyễn Yến Nhi": "Mong rằng em sẽ kiên trì hơn trong học tập và tự tin hơn vào những gì mình có thể làm.Tập nói trước đám đông đi nha, lên đại học thuyết trình hơi bị nhiều đếy",
+            "Nguyễn Hữu Nam Phong": "Ấn tượng của cô là Nam Phong thích nấu ăn và được nhiều bạn \"yêu quý\" thích môn tin nữa (không biết thật không). Chúc em vừa học tốt vừa tận hưởng trọn vẹn những năm tháng học trò và có thể đạt được những mục tiêu mà mình đề ra",
+            "Đặng Minh Phương": "Cô chúc em luôn tự tin hơn vào bản thân, chăm chỉ hơn mỗi ngày và sớm tìm được con đường phù hợp với mình. Quý Phương nhất",
+            "Đỗ Anh Quyết": "Cô không thấy tờ phiếu khảo sát của em đâu, có thể do cô làm mất hoặc do em không nộp (bùn :( ). Chúc em luôn giữ được sự chăm chỉ và tinh thần học hỏi, những cố gắng hôm nay sẽ là thành công của ngày mai.",
+            "Đào Xuân Sơn": "Ấn tượng của cô về Sơn là nói nhiều và là người Thanh Hóa(đùa thôi). Chúc em giữ vững quyết tâm và từng bước chinh phục mục tiêu của mình và quý Tiến Mạnh hơn",
+            "Nguyễn Văn Tài": "Chữ Tài đẹp nhất lớp thật =)) Chúc em sớm đạt được giải Vật lý nhe, đạt được thì vào Hust chỉ còn là vấn đề thời gian thôi.",
+            "Đoàn Việt Tâm": "Hy vọng rằng những năm tháng học sinh sẽ trở thành một kỷ niệm thật đẹp đối với em, chúc em vào được NEU nhé, nhiều bạn trong lớp cũng muốn học cùng trường với em lắm. Không biết lớp mình độc ác thế nào mà để Tâm khiếp như vậy",
+            "Lê Minh Tân": "Chúc em luôn giữ tinh thần học hỏi, cố gắng mỗi ngày và tin vào khả năng của mình và sớm được mặc long bào nhé",
+            "Nguyễn Quang Thịnh": "Chúc em luôn giữ tinh thần cố gắng, học hỏi mỗi ngày và dần trở thành phiên bản tốt hơn của chính mình và trở thành tân sinh viên neu trong năm sau nữa nha",
+            "Nguyễn Thọ Quang Thọ": "Mong rằng sau này khi trưởng thành, em sẽ tự hào vì những cố gắng của bản thân ngày hôm nay, tìm được định hướng cho mình.",
+            "Bùi Kim Thư": "Ấn tượng của cô là nhìn Thư mạnh mẽ, ăn to nói lớn và thích trêu cô >=(. Thấy Thư nhiều nguyện vọng quá nên cô chúc Thư 30 điểm thi thptqg nha để đỗ hết các trường làm học bá toàn quốc luôn",
+            "Nguyễn Khánh Toàn": "Chức vụ trong lớp Toàn viết nhìn như chữ Lốp trưởng vậy =)). Cô thấy ngoại hình của Toàn chẳng có gì để tự ti, cố chăm chút tí là năm sau là 2027. Chúc Toàn chăm ngoan học giỏi, đỗ đượt tất cả các trường trong nguyện vọng của em và lại được ngồi cạnh Tuấn Linh vào năm lớp 12",
+            "Đào Thị Mai Trang": "Ấn tượng của cô là nhìn Trang xinh gái. Mong rằng em sẽ cố gắng nhiều hơn trong học tập, tin vào khả năng của mình và từng bước đạt được mục tiêu phía trước, được đi gặp idol với Dương nha",
+            "Đặng Thu Trang": "Chúc em giữ vững quyết tâm và từng bước chinh phục mục tiêu của mình nhé",
+            "Nguyễn Thiên Bách Tùng": "Chúc em luôn tự tin, chăm chỉ và đạt được mục tiêu mình đặt ra. Bỏ điện thoại ra đọc sách vở vào",
+            "Nguyễn Bảo Vy": "Chúc em luôn giữ tinh thần học hỏi, cố gắng mỗi ngày và tin vào khả năng của mình, cao hơn và học giỏi để không bị bố thu điện thoại nha =))"
         };
 
         let current = { name: "", msg: "" };
@@ -199,6 +246,5 @@
 </body>
 
 </html>
-
 
 
